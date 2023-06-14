@@ -9,7 +9,10 @@ import Foundation
 
 struct DataService {
     
-    
+    func getData() -> [City] {
+        
+        return
+    }
     
 }
 
