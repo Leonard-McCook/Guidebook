@@ -90,7 +90,9 @@ On the bottom floor is an exhibit room showing the history and science of animat
                                            imageName: "buckingham", latLong: "51.50148418749087, -0.1410746109020975")
                              ])
         ]
+        
     }
     
 }
+
 
