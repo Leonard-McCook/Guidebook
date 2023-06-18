@@ -16,6 +16,7 @@
 		D78D57082A37C17500EC5F7F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D57072A37C17500EC5F7F /* DataService.swift */; };
 		D78D570A2A37C21800EC5F7F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D57092A37C21800EC5F7F /* City.swift */; };
 		D7A8B2ED2A394ED900BBD54C /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B2EC2A394ED900BBD54C /* Attraction.swift */; };
+		D7A8B2EF2A3FC96800BBD54C /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B2EE2A3FC96800BBD54C /* CityCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D78D57072A37C17500EC5F7F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D78D57092A37C21800EC5F7F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		D7A8B2EC2A394ED900BBD54C /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		D7A8B2EE2A3FC96800BBD54C /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				D7623AD22A3518E8004230F1 /* Preview Content */,
 				D78D57092A37C21800EC5F7F /* City.swift */,
 				D7A8B2EC2A394ED900BBD54C /* Attraction.swift */,
+				D7A8B2EE2A3FC96800BBD54C /* CityCard.swift */,
 			);
 			path = Guidebook;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				D7623ADD2A368E96004230F1 /* DetailView.swift in Sources */,
 				D78D570A2A37C21800EC5F7F /* City.swift in Sources */,
 				D7A8B2ED2A394ED900BBD54C /* Attraction.swift in Sources */,
+				D7A8B2EF2A3FC96800BBD54C /* CityCard.swift in Sources */,
 				D7623ACD2A3518D5004230F1 /* GuidebookApp.swift in Sources */,
 				D7623ADB2A368E82004230F1 /* AttractionView.swift in Sources */,
 				D78D57082A37C17500EC5F7F /* DataService.swift in Sources */,
