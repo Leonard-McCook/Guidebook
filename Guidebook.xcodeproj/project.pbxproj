@@ -17,6 +17,7 @@
 		D78D570A2A37C21800EC5F7F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D57092A37C21800EC5F7F /* City.swift */; };
 		D7A8B2ED2A394ED900BBD54C /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B2EC2A394ED900BBD54C /* Attraction.swift */; };
 		D7A8B2EF2A3FC96800BBD54C /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B2EE2A3FC96800BBD54C /* CityCard.swift */; };
+		D7A8B2F12A41D99B00BBD54C /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8B2F02A41D99B00BBD54C /* AttractionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D78D57092A37C21800EC5F7F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		D7A8B2EC2A394ED900BBD54C /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		D7A8B2EE2A3FC96800BBD54C /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		D7A8B2F02A41D99B00BBD54C /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				D78D57092A37C21800EC5F7F /* City.swift */,
 				D7A8B2EC2A394ED900BBD54C /* Attraction.swift */,
 				D7A8B2EE2A3FC96800BBD54C /* CityCard.swift */,
+				D7A8B2F02A41D99B00BBD54C /* AttractionRow.swift */,
 			);
 			path = Guidebook;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				D7623ACF2A3518D5004230F1 /* CityView.swift in Sources */,
 				D7623ADD2A368E96004230F1 /* DetailView.swift in Sources */,
+				D7A8B2F12A41D99B00BBD54C /* AttractionRow.swift in Sources */,
 				D78D570A2A37C21800EC5F7F /* City.swift in Sources */,
 				D7A8B2ED2A394ED900BBD54C /* Attraction.swift in Sources */,
 				D7A8B2EF2A3FC96800BBD54C /* CityCard.swift in Sources */,
