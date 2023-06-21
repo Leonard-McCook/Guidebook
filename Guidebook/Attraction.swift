@@ -15,4 +15,5 @@ struct Attraction: Identifiable {
     var longDescription: String
     var imageName: String
     var latLong: String
+    
 }

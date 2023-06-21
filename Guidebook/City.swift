@@ -15,5 +15,4 @@ struct City: Identifiable {
     var imageName: String
     
     var attractions: [Attraction]
-    
 }

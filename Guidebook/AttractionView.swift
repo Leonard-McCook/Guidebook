@@ -13,7 +13,7 @@ struct AttractionView: View {
     
     var body: some View {
         
-        ScrollView {
+        ScrollView (showsIndicators: false) {
             
             VStack {
                 
@@ -22,8 +22,11 @@ struct AttractionView: View {
                     NavigationLink {
                         DetailView(attraction: attraction)
                     } label: {
-                        Text(attraction.name)
+                        
+                        AttractionRow(attraction: attraction)
+                            .padding(.bottom, 50)
                     }
+                    .buttonStyle(.plain)
 
                     
                     
@@ -32,6 +35,7 @@ struct AttractionView: View {
             }
             
         }
+        .padding(.horizontal)
         
     }
 }
@@ -51,4 +55,3 @@ struct AttractionView_Previews: PreviewProvider {
                                   ]))
     }
 }
-

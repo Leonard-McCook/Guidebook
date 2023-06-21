@@ -13,12 +13,29 @@ struct DetailView: View {
     
     var body: some View {
         
-        ScrollView {
+        VStack (spacing: 20) {
             Image(attraction.imageName)
                 .resizable()
-            Text(attraction.name)
-            Text(attraction.longDescription)
+                .aspectRatio(contentMode: .fill)
+                .frame(height: 300)
+            
+            
+            ScrollView (showsIndicators: false) {
+                VStack (alignment: .leading, spacing: 20) {
+                    Text(attraction.name)
+                        .font(.title)
+                        .bold()
+                    
+                    Text(attraction.longDescription)
+                        .multilineTextAlignment(.leading)
+                }
+                .padding(.bottom, 20)
+            }
+            .padding(.horizontal)
         }
+        .ignoresSafeArea()
+        
+        
         
         
     }
@@ -34,4 +51,3 @@ struct DetailView_Previews: PreviewProvider {
                                           imageName: "pantheon", latLong: "41.898762500696236, 12.476915812472798"))
     }
 }
-

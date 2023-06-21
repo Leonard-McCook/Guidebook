@@ -44,4 +44,3 @@ struct AttractionRow_Previews: PreviewProvider {
                                              imageName: "tsukiji", latLong: "35.66518913611479, 139.76982702573392"))
     }
 }
-
