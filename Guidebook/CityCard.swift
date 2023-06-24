@@ -55,5 +55,3 @@ struct CityCard_Previews: PreviewProvider {
         CityCard(city: City(name: "Tokyo", summary: "Tokyo serves as Japan's economic center and is the seat of both the Japanese government and the Emperor of Japan. Tokyo.", imageName: "tokyo", attractions: [Attraction]()))
     }
 }
-
-
