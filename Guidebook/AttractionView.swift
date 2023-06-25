@@ -55,3 +55,4 @@ struct AttractionView_Previews: PreviewProvider {
                                   ]))
     }
 }
+
